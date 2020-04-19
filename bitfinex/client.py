@@ -339,7 +339,10 @@ class TradeClient:
 
         return json_resp
 
-
+class Test:
+    def trades(self, symbol, parameters):
+        return symbol
+    
 
 class Client:
     """
